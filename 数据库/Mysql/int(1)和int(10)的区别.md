@@ -29,7 +29,7 @@ INSERT INTO `test_int` (`id`, `int1`, `int3`, `int10`, `int10_a`, `int10_b`) VAL
 
 通过navicat 查看，结果如下图
 
-![](E:\wamp\www\blog\数据库\Mysql\int-1.png)
+![int-1](int-1.png)
 
 于是就有人说，int(1)和int(10)并不存在上面说的无符号填充零时显示位数不够时会填充零的区别，所以得出结论无任何区别。
 
@@ -37,5 +37,5 @@ INSERT INTO `test_int` (`id`, `int1`, `int3`, `int10`, `int10_a`, `int10_b`) VAL
 
 如果直接通过命令行查看，就能很方便的查看填充零的情况。
 
-![int-2](E:\wamp\www\blog\数据库\Mysql\int-2.png)
+![int-2](int-2.png)
 
